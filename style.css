@@ -7,22 +7,18 @@ body {
 
 #wrapper {
 	position: relative;
-	overflow: hidden;
+overflow-x: hidden;
 	width: 320px;
 	height: 568px;
 }
 
-.scroll {
-	width: 320px;
-	height: 568px;
-}
+
 
 .item {
 	display: inline-block;
 	position: absolute;
 	font-size: 100px;
 	text-align: center;
-	padding-top: 220px;
 	margin: 0 auto;
 	width: 320px;
 	height: 568px;
@@ -31,6 +27,10 @@ body {
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: normal;
+}
+
+.item > div {
+	padding-top: 220px;
 }
 
 #item5 {
